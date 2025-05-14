@@ -4,9 +4,19 @@
 
 }
 
-form{
+formulario{
     background-color: #c22323;
     color: #000000;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 50px;
+    min-width: 30%;
+    min-width: 30;
 }
+
+
+
+
+
+
 
