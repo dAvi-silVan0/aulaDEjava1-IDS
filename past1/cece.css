@@ -6,12 +6,12 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #fff;
+    background-color: #c72424;
     padding: 2em;
 }
 
 form {
-    background-color: silver;
+    background-color: rgb(126, 236, 126);
     color: black;
     font-style: italic;
     display: flex;
@@ -39,7 +39,7 @@ button {
 
 span {
     font-size: 0.9em;
-    color: #333;
+    color: #4543a1;
 }
 
 .claro{
