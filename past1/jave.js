@@ -2,15 +2,14 @@ let altura;
 let peso;
 let imc;
 
-function calcImc(altura, peso)
-{
+function calcImc(){
     let altura = (document.getElementById("al").value)/100;
     let peso = (document.getElementById("ps").value)
 
-    altura = parseFloat(altura);
+    altura = parseFloat(altura); /*float = de ponto flutuante*/
     peso = parseFloat(peso);
 
-    imc = peso / (altura * altura);
+    let imc = peso / (altura * altura);
     window.alert('Seu IMC é:' + imc);
 }
 
