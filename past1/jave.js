@@ -9,4 +9,8 @@ function calcImc(){
     window.alert('Seu IMC é:' + imc);
 }
 
+function alternarTemas(){
+    const corpo = document.body;
+    
+}
 
