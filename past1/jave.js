@@ -1,6 +1,6 @@
 function calcImc(){
     let altura = (document.getElementById("al").value)/100;
-    let peso = (document.getElementById("ps").value)
+    let peso = (document.getElementById("ps").value);
 
     altura = parseFloat(altura); /*float = de ponto flutuante*/
     peso = parseFloat(peso);
