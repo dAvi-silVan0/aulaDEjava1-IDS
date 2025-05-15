@@ -11,6 +11,7 @@ function calcImc(){
 
 function alternarTemas(){
     const corpo = document.body;
-    
+    corpo.classList.toggle("escuro");
+    corpo.classList.toggle("claro");
 }
 
