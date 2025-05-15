@@ -9,9 +9,12 @@ function calcImc(){
     window.alert('Seu IMC é:' + imc);
 }
 
-function alternarTemas(){
+function alternarTema_escuro(){
     const corpo = document.body;
     corpo.classList.toggle("escuro");
+}
+function alternarTema_claro(){
+    const corpo = document.body;
     corpo.classList.toggle("claro");
 }
 
